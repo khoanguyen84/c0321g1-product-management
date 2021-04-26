@@ -17,12 +17,12 @@
         <div class="row">
             <h3>Add New Product</h3>
             <div class="form-group">
-                <input id="product-name" type="text" placeholder="New Product">
+                <input class='form-input-control' id="product-name" type="text" placeholder="New Product">
                 <a href="javascript:;" class="btn btn-success" onclick="addProduct()">Add</a>
             </div>
         </div>
         <div class="row">
-            <h3>Display All Product</h3>
+            <h3 id="product_number">Display All Product</h3>
             <div class="products">
                 <table>
                     <thead>
@@ -36,6 +36,9 @@
                         
                     </tbody>
                 </table>
+            </div>
+            <div id="pagination">
+                <ul></ul>
             </div>
         </div>
     </div>
